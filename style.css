@@ -8,33 +8,60 @@ body{
 
 h1{
     border: none;
+    color: rgba(0, 0, 0, 0.123);
 }
 
 h2{
     /* display: flex; */
     text-align: center;
+    color: blue;
+    text-decoration: underline;
+    font-style: italic;
     /* align-self: flex-start; */
     /* border: 1px solid black; */
 }
 
 h4{
     display: flex;
+    margin: 0;
 }
 
-.container{    
+.container{
+    background-color: rgb(158, 158, 158);    
     display: flex;
     flex-direction: column;
     /* row-gap: 5px; */
     justify-content: start;
     align-items: center;
     width: 50vh;
-    height: 60vh;
-    border: 1px solid black;
+    height: 35vh;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+}
+
+.instructionLabel{
+    float: left;
+    margin-top: 14px;
+    padding-right: 10px;
+    font-size: 11pt;
+}
+
+.instructionLabel2{
+    float: left;
+    margin-top: 14px;
+    padding-right: 30px;
+    font-size: 11pt;
+}
+
+.inputRows{
+    margin-bottom: 10px;
 }
 
 .inputField{
     text-align: center;
+    margin-top: 10px;
     height: 30px;
+    width: 100px;
     /* border: 1px solid black; */
     border: none;
     border-radius: 5px;
@@ -42,24 +69,30 @@ h4{
 }
 
 .button{
+    margin-top: 10px;
+    margin-bottom: 20px;
     background-color: rgb(0, 153, 255);
     height: 35px;
-    width: 100px;
-    border-radius: 5px;
+    width: 170px;
+    border: none;
+    border-radius: 15px;
+    font-size: 12pt;
     font-weight: bold;
+    color: aliceblue;
     cursor: pointer;
 }
 
 button:hover{
-    background-color: rgb(6, 136, 223);
+    background-color: rgb(4, 111, 182);
 }
 
 .display{
+    margin-top: 5px;
     text-align: center;
     padding-top: 8px;
-    border: 1px solid green;
+    /* border: 1px solid rgb(6, 136, 223); */
     border-radius: 5px;
     height: 30px;
-    width: 175px;
-    background-color: beige;
+    width: 75px;
+    background-color: rgb(247, 247, 236);
 }

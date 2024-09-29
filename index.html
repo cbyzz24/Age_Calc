@@ -13,9 +13,15 @@
     </div>
 
     <div class="container">
-        <h2>Age Calculator</h2> <br />
-        <input type="number" class="inputField" id="currentYear" placeholder="Enter Current Year" /> <br /> <br />
-        <input type="number" class="inputField" id="birthYear" placeholder="Enter Birth Year" /> <br /> <br />
+        <h2>Age Calculator</h2> 
+        <div class="inputRows">
+            <div class="instructionLabel">Enter Current Year ➡️</div>
+            <input type="number" class="inputField" id="currentYear" /> <br />
+        </div>
+        <div class="inputRows">
+            <div class="instructionLabel2">Enter Birth Year ➡️</div>
+            <input type="number" class="inputField" id="birthYear" /> <br />
+        </div>
         <button type="button" class="button" id="calculateButton" onclick="calculateAge()">Calculate</button>
         <!-- <label class="ageDisplay">Age Displayed Here</label> -->
          <h4>Current Age</h4>
