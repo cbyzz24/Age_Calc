@@ -14,13 +14,14 @@
 
     <div class="container">
         <h2>Age Calculator</h2> 
-        <div class="inputRows">
-            <div class="instructionLabel">Enter Current Year ➡️</div>
-            <input type="number" class="inputField" id="currentYear" /> <br />
+        <div class="cyRow">
+            <div class="instructionLabel">Current Year</div>
+            <output class="cyDisplay" id="currentYear">1900</output>
+            <!-- <input type="number" class="inputField" id="currentYear" /> <br /> -->
         </div>
         <div class="inputRows">
             <div class="instructionLabel2">Enter Birth Year ➡️</div>
-            <input type="number" class="inputField" id="birthYear" /> <br />
+            <input autofocus type="number" class="inputField" id="birthYear" /> <br />
         </div>
         <button type="button" class="button" id="calculateButton" onclick="calculateAge()">Calculate</button>
         <!-- <label class="ageDisplay">Age Displayed Here</label> -->

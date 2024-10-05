@@ -48,20 +48,43 @@ h4{
 
 .instructionLabel2{
     float: left;
-    margin-top: 14px;
+    margin-top: 10px;
     padding-right: 30px;
     font-size: 11pt;
+}
+
+.cyRow{
+    margin-bottom: 10px;
+    /* padding-left: 65px; */
 }
 
 .inputRows{
     margin-bottom: 10px;
 }
 
+.cyDisplay{
+    font-size: 11pt;
+    float: right;
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 20px;
+    width: 75px;
+    /* border: 1px solid black; */
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
 .inputField{
+    font-size: 11pt;
     text-align: center;
     margin-top: 10px;
-    height: 30px;
-    width: 100px;
+    height: 22px;
+    width: 94px;
     /* border: 1px solid black; */
     border: none;
     border-radius: 5px;
@@ -87,6 +110,7 @@ button:hover{
 }
 
 .display{
+    font-size: 11pt;
     margin-top: 5px;
     text-align: center;
     padding-top: 8px;
