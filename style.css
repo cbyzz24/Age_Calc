@@ -40,6 +40,7 @@ h4{
 }
 
 .instructionLabel{
+    color: hsla(0, 0%, 14%, 0.74);
     float: left;
     margin-top: 14px;
     padding-right: 10px;
@@ -64,6 +65,7 @@ h4{
 
 .cyDisplay{
     font-size: 11pt;
+    color: hsla(0, 0%, 14%, 0.87);
     float: right;
     text-align: center;
     padding-top: 4px;
@@ -76,7 +78,7 @@ h4{
     /* border: 1px solid black; */
     border: none;
     border-radius: 5px;
-    background-color: white;
+    background-color: hsl(0, 0%, 85%);
 }
 
 .inputField{
@@ -113,10 +115,10 @@ button:hover{
     font-size: 11pt;
     margin-top: 5px;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 12px;
     /* border: 1px solid rgb(6, 136, 223); */
     border-radius: 5px;
     height: 30px;
     width: 75px;
-    background-color: rgb(247, 247, 236);
+    background-color: hsl(204, 83%, 86%);
 }
