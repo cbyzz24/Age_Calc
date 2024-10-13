@@ -1,8 +1,13 @@
 body{
+    height: 100vh;
+    width: 100vh;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
-    background-color: rgb(226, 225, 225);
+    justify-content: center;
+    /* background-color: rgb(226, 225, 225); */
+    background: rgb(7,25,82);
+    background: linear-gradient(90deg, rgba(7,25,82,1) 0%, rgba(59, 168, 226, 1) 50%, rgba(7,25,82,1) 100%);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -27,7 +32,13 @@ h4{
 }
 
 .container{
-    background-color: rgb(158, 158, 158);    
+    background-color: rgba(225, 225, 225, 0.1, rgba(225, 225, 225, 0.0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;  
+    border: 1px solid rgb(225, 225, 225);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.80);  
+
     display: flex;
     flex-direction: column;
     /* row-gap: 5px; */
@@ -36,7 +47,6 @@ h4{
     width: 50vh;
     height: auto;
     /* border: 1px solid black; */
-    border-radius: 5px;
 }
 
 .instructionLabel{
@@ -113,9 +123,11 @@ button:hover{
 
 .display{
     font-size: 11pt;
+    font-weight: bold;
+    font-size: 1.2em;
     margin-top: 5px;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 8px;
     /* border: 1px solid rgb(6, 136, 223); */
     border-radius: 5px;
     height: 30px;
